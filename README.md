@@ -16,6 +16,13 @@ b_grp = grplassoShooting(X, Y, G, lambda);
 
 % We can solve the Lasso and group Lasso on a set of penalty parameters (example below lambda=0:2:730) with the shooting algorithms.
 
+| ![Lasso](./img/LassoShooting.png) | 
+|:--:| 
+| *Lasso path* |
+
+| ![Group Lasso](./img/grpLassoShooting.png) | 
+|:--:| 
+| *Group Lasso path* |
 
 <strong>References:</strong>
 
