@@ -8,10 +8,15 @@ Output: the estimated coefficient vector.
 Lasso and group Lasso for the diabetes data set used in [1].
 
 lambda = 100;
+
 b = lassoShooting(X, Y, lambda);
+
 % Grouping index:
+
 % G1: age & sex; G2: BMI & BP; G3: S1-S6;
+
 G = [1 1 2 2 3 3 3 3 3 3];
+
 b_grp = grplassoShooting(X, Y, G, lambda);
 
 % We can solve the Lasso and group Lasso on a set of penalty parameters (example below lambda=0:2:730) with the shooting algorithms.
