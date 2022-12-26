@@ -1,8 +1,9 @@
 # Lasso
 Shooting algorithm implemented in Matlab for solving the Lasso and group Lasso in the penalized form.
 
-Input: a design matrix X, a response vector Y, grouping index G (only required by group Lasso), penalty parameter lambda.
-Output: the estimated coefficient vector.
+<strong>Input:</strong> a design matrix X, a response vector Y, grouping index G (only required by group Lasso), penalty parameter lambda.
+
+<strong>Output:</strong> the estimated coefficient vector.
 
 <strong>Example:</strong>
 Lasso and group Lasso for the diabetes data set used in [1].
