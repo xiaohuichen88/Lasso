@@ -36,4 +36,4 @@ b_grp = grplassoShooting(X, Y, G, lambda);
 
 [2] Yuan and Lin (2005) Model selection and estimation in regression with grouped variables. JRSSB.
 
-[3] Efron Brad, et al. (2004) Least angle regression. Annals of Statistics, 32(2):407-499.
+[3] Efron et al. (2004) Least angle regression. Annals of Statistics, 32(2):407-499.
